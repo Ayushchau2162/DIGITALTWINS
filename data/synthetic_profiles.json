@@ -1,0 +1,186 @@
+{
+  "profiles": [
+    {
+      "id": "alex_moderate",
+      "name": "Ajay Kumar",
+      "description": "Typical T2D patient with moderate control",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1001",
+        "name": "Alex Morgan",
+        "age": 52,
+        "biological_sex": "male",
+        "height_cm": 175.0,
+        "years_since_diagnosis": 3,
+        "family_history_diabetes": true,
+        "has_hypertension": true,
+        "has_dyslipidemia": false,
+        "has_cardiovascular_disease": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 60,
+        "activity_level": "lightly_active",
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 260,
+        "daily_fiber_intake_grams": 15,
+        "sugary_drinks_per_week": 5,
+        "average_sleep_hours": 6.5,
+        "sleep_quality_score": 0.6,
+        "stress_level": "moderate",
+        "stress_score": 0.5,
+        "medication_adherence": 0.7,
+        "smoking_status": false,
+        "alcohol_drinks_per_week": 3
+      },
+      "health_metrics": {
+        "weight_kg": 88.0,
+        "hba1c_percent": 7.2,
+        "fasting_glucose_mgdl": 145.0,
+        "systolic_bp": 138,
+        "diastolic_bp": 88,
+        "ldl_cholesterol_mgdl": 120.0,
+        "hdl_cholesterol_mgdl": 42.0,
+        "triglycerides_mgdl": 180.0
+      }
+    },
+    {
+      "id": "sarah_mild",
+      "name": "Shivaya",
+      "description": "Early-stage, well-controlled diabetes",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1002",
+        "name": "Sarah Chen",
+        "age": 45,
+        "biological_sex": "female",
+        "height_cm": 162.0,
+        "years_since_diagnosis": 1,
+        "family_history_diabetes": false,
+        "has_hypertension": false,
+        "has_dyslipidemia": false,
+        "has_cardiovascular_disease": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 120,
+        "activity_level": "moderately_active",
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 200,
+        "daily_fiber_intake_grams": 25,
+        "sugary_drinks_per_week": 2,
+        "average_sleep_hours": 7.5,
+        "sleep_quality_score": 0.8,
+        "stress_level": "low",
+        "stress_score": 0.3,
+        "medication_adherence": 0.9,
+        "smoking_status": false,
+        "alcohol_drinks_per_week": 1
+      },
+      "health_metrics": {
+        "weight_kg": 68.0,
+        "hba1c_percent": 6.4,
+        "fasting_glucose_mgdl": 118.0,
+        "systolic_bp": 125,
+        "diastolic_bp": 80,
+        "ldl_cholesterol_mgdl": 100.0,
+        "hdl_cholesterol_mgdl": 55.0,
+        "triglycerides_mgdl": 120.0
+      }
+    },
+    {
+      "id": "james_severe",
+      "name": "saraswati",
+      "description": "Poorly controlled with multiple risk factors",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1003",
+        "name": "James Williams",
+        "age": 62,
+        "biological_sex": "male",
+        "height_cm": 180.0,
+        "years_since_diagnosis": 12,
+        "family_history_diabetes": true,
+        "has_hypertension": true,
+        "has_dyslipidemia": true,
+        "has_cardiovascular_disease": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 20,
+        "activity_level": "sedentary",
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 350,
+        "daily_fiber_intake_grams": 10,
+        "sugary_drinks_per_week": 10,
+        "average_sleep_hours": 5.5,
+        "sleep_quality_score": 0.4,
+        "stress_level": "high",
+        "stress_score": 0.8,
+        "medication_adherence": 0.5,
+        "smoking_status": true,
+        "alcohol_drinks_per_week": 7
+      },
+      "health_metrics": {
+        "weight_kg": 105.0,
+        "hba1c_percent": 9.2,
+        "fasting_glucose_mgdl": 195.0,
+        "systolic_bp": 158,
+        "diastolic_bp": 98,
+        "ldl_cholesterol_mgdl": 160.0,
+        "hdl_cholesterol_mgdl": 35.0,
+        "triglycerides_mgdl": 250.0
+      }
+    },
+    {
+      "id": "maria_improving",
+      "name": "john",
+      "description": "Patient making positive lifestyle changes",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1004",
+        "name": "Maria Garcia",
+        "age": 48,
+        "biological_sex": "female",
+        "height_cm": 165.0,
+        "years_since_diagnosis": 4,
+        "family_history_diabetes": true,
+        "has_hypertension": true,
+        "has_dyslipidemia": false,
+        "has_cardiovascular_disease": false,
+        "genetic_risk_factor": 0.55
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 90,
+        "activity_level": "moderately_active",
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 220,
+        "daily_fiber_intake_grams": 22,
+        "sugary_drinks_per_week": 3,
+        "average_sleep_hours": 7.0,
+        "sleep_quality_score": 0.7,
+        "stress_level": "moderate",
+        "stress_score": 0.4,
+        "medication_adherence": 0.85,
+        "smoking_status": false,
+        "alcohol_drinks_per_week": 2
+      },
+      "health_metrics": {
+        "weight_kg": 75.0,
+        "hba1c_percent": 7.0,
+        "fasting_glucose_mgdl": 135.0,
+        "systolic_bp": 132,
+        "diastolic_bp": 84,
+        "ldl_cholesterol_mgdl": 110.0,
+        "hdl_cholesterol_mgdl": 48.0,
+        "triglycerides_mgdl": 150.0
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "description": "Synthetic patient profiles for DiabeTwin demonstration",
+    "disclaimer": "All data is synthetic and for demonstration purposes only",
+    "created": "2025-01-27"
+  }
+}
