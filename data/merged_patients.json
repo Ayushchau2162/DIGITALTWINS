@@ -1,0 +1,2984 @@
+{
+  "profiles": [
+    {
+      "id": "alex_moderate",
+      "name": "Alex Morgan",
+      "description": "Typical T2D patient with moderate control",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1001",
+        "name": "Alex Morgan",
+        "age": 52,
+        "biological_sex": "male",
+        "height_cm": 175.0,
+        "years_since_diagnosis": 3,
+        "family_history_diabetes": true,
+        "has_hypertension": true,
+        "has_dyslipidemia": false,
+        "has_cardiovascular_disease": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 60,
+        "activity_level": "lightly_active",
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 260,
+        "daily_fiber_intake_grams": 15,
+        "sugary_drinks_per_week": 5,
+        "average_sleep_hours": 6.5,
+        "sleep_quality_score": 0.6,
+        "stress_level": "moderate",
+        "stress_score": 0.5,
+        "medication_adherence": 0.7,
+        "smoking_status": false,
+        "alcohol_drinks_per_week": 3
+      },
+      "health_metrics": {
+        "weight_kg": 88.0,
+        "hba1c_percent": 7.2,
+        "fasting_glucose_mgdl": 145.0,
+        "systolic_bp": 138,
+        "diastolic_bp": 88,
+        "ldl_cholesterol_mgdl": 120.0,
+        "hdl_cholesterol_mgdl": 42.0,
+        "triglycerides_mgdl": 180.0
+      }
+    },
+    {
+      "id": "sarah_mild",
+      "name": "Sarah Chen",
+      "description": "Early-stage, well-controlled diabetes",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1002",
+        "name": "Sarah Chen",
+        "age": 45,
+        "biological_sex": "female",
+        "height_cm": 162.0,
+        "years_since_diagnosis": 1,
+        "family_history_diabetes": false,
+        "has_hypertension": false,
+        "has_dyslipidemia": false,
+        "has_cardiovascular_disease": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 120,
+        "activity_level": "moderately_active",
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 200,
+        "daily_fiber_intake_grams": 25,
+        "sugary_drinks_per_week": 2,
+        "average_sleep_hours": 7.5,
+        "sleep_quality_score": 0.8,
+        "stress_level": "low",
+        "stress_score": 0.3,
+        "medication_adherence": 0.9,
+        "smoking_status": false,
+        "alcohol_drinks_per_week": 1
+      },
+      "health_metrics": {
+        "weight_kg": 68.0,
+        "hba1c_percent": 6.4,
+        "fasting_glucose_mgdl": 118.0,
+        "systolic_bp": 125,
+        "diastolic_bp": 80,
+        "ldl_cholesterol_mgdl": 100.0,
+        "hdl_cholesterol_mgdl": 55.0,
+        "triglycerides_mgdl": 120.0
+      }
+    },
+    {
+      "id": "james_severe",
+      "name": "James Williams",
+      "description": "Poorly controlled with multiple risk factors",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1003",
+        "name": "James Williams",
+        "age": 62,
+        "biological_sex": "male",
+        "height_cm": 180.0,
+        "years_since_diagnosis": 12,
+        "family_history_diabetes": true,
+        "has_hypertension": true,
+        "has_dyslipidemia": true,
+        "has_cardiovascular_disease": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 20,
+        "activity_level": "sedentary",
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 350,
+        "daily_fiber_intake_grams": 10,
+        "sugary_drinks_per_week": 10,
+        "average_sleep_hours": 5.5,
+        "sleep_quality_score": 0.4,
+        "stress_level": "high",
+        "stress_score": 0.8,
+        "medication_adherence": 0.5,
+        "smoking_status": true,
+        "alcohol_drinks_per_week": 7
+      },
+      "health_metrics": {
+        "weight_kg": 105.0,
+        "hba1c_percent": 9.2,
+        "fasting_glucose_mgdl": 195.0,
+        "systolic_bp": 158,
+        "diastolic_bp": 98,
+        "ldl_cholesterol_mgdl": 160.0,
+        "hdl_cholesterol_mgdl": 35.0,
+        "triglycerides_mgdl": 250.0
+      }
+    },
+    {
+      "id": "maria_improving",
+      "name": "Maria Garcia",
+      "description": "Patient making positive lifestyle changes",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1004",
+        "name": "Maria Garcia",
+        "age": 48,
+        "biological_sex": "female",
+        "height_cm": 165.0,
+        "years_since_diagnosis": 4,
+        "family_history_diabetes": true,
+        "has_hypertension": true,
+        "has_dyslipidemia": false,
+        "has_cardiovascular_disease": false,
+        "genetic_risk_factor": 0.55
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 90,
+        "activity_level": "moderately_active",
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 220,
+        "daily_fiber_intake_grams": 22,
+        "sugary_drinks_per_week": 3,
+        "average_sleep_hours": 7.0,
+        "sleep_quality_score": 0.7,
+        "stress_level": "moderate",
+        "stress_score": 0.4,
+        "medication_adherence": 0.85,
+        "smoking_status": false,
+        "alcohol_drinks_per_week": 2
+      },
+      "health_metrics": {
+        "weight_kg": 75.0,
+        "hba1c_percent": 7.0,
+        "fasting_glucose_mgdl": 135.0,
+        "systolic_bp": 132,
+        "diastolic_bp": 84,
+        "ldl_cholesterol_mgdl": 110.0,
+        "hdl_cholesterol_mgdl": 48.0,
+        "triglycerides_mgdl": 150.0
+      }
+    },
+    {
+      "id": "patient_1",
+      "name": "Patient 1",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1001",
+        "age": 59,
+        "biological_sex": "male",
+        "height_cm": 157.6,
+        "years_since_diagnosis": 3,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 107.9,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 289.3,
+        "average_sleep_hours": 5.7,
+        "stress_score": 0.4,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.5,
+        "fasting_glucose_mgdl": 161.4,
+        "systolic_bp": 143,
+        "diastolic_bp": 76
+      }
+    },
+    {
+      "id": "patient_2",
+      "name": "Patient 2",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1002",
+        "age": 51,
+        "biological_sex": "male",
+        "height_cm": 182.7,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 102.0,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 270.0,
+        "average_sleep_hours": 7.3,
+        "stress_score": 0.8,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 10.0,
+        "fasting_glucose_mgdl": 125.1,
+        "systolic_bp": 140,
+        "diastolic_bp": 75
+      }
+    },
+    {
+      "id": "patient_3",
+      "name": "Patient 3",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1003",
+        "age": 63,
+        "biological_sex": "male",
+        "height_cm": 159.9,
+        "years_since_diagnosis": 6,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.3
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 139.5,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 355.7,
+        "average_sleep_hours": 6.7,
+        "stress_score": 0.6,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.4,
+        "fasting_glucose_mgdl": 123.7,
+        "systolic_bp": 136,
+        "diastolic_bp": 98
+      }
+    },
+    {
+      "id": "patient_4",
+      "name": "Patient 4",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1004",
+        "age": 54,
+        "biological_sex": "female",
+        "height_cm": 165.3,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 89.2,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 288.4,
+        "average_sleep_hours": 7.4,
+        "stress_score": 0.7,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.5,
+        "fasting_glucose_mgdl": 114.8,
+        "systolic_bp": 138,
+        "diastolic_bp": 86
+      }
+    },
+    {
+      "id": "patient_5",
+      "name": "Patient 5",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1005",
+        "age": 45,
+        "biological_sex": "female",
+        "height_cm": 155.3,
+        "years_since_diagnosis": 12,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 34.4,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 282.4,
+        "average_sleep_hours": 7.5,
+        "stress_score": 0.8,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 5.8,
+        "fasting_glucose_mgdl": 118.8,
+        "systolic_bp": 139,
+        "diastolic_bp": 89
+      }
+    },
+    {
+      "id": "patient_6",
+      "name": "Patient 6",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1006",
+        "age": 61,
+        "biological_sex": "female",
+        "height_cm": 175.5,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 30.0,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 206.6,
+        "average_sleep_hours": 7.3,
+        "stress_score": 0.7,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.4,
+        "fasting_glucose_mgdl": 119.9,
+        "systolic_bp": 122,
+        "diastolic_bp": 100
+      }
+    },
+    {
+      "id": "patient_7",
+      "name": "Patient 7",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1007",
+        "age": 53,
+        "biological_sex": "male",
+        "height_cm": 170.2,
+        "years_since_diagnosis": 6,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 87.5,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 347.0,
+        "average_sleep_hours": 7.9,
+        "stress_score": 0.7,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.0,
+        "fasting_glucose_mgdl": 175.2,
+        "systolic_bp": 132,
+        "diastolic_bp": 92
+      }
+    },
+    {
+      "id": "patient_8",
+      "name": "Patient 8",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1008",
+        "age": 61,
+        "biological_sex": "female",
+        "height_cm": 155.9,
+        "years_since_diagnosis": 5,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 98.8,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 302.1,
+        "average_sleep_hours": 7.2,
+        "stress_score": 0.8,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.8,
+        "fasting_glucose_mgdl": 135.8,
+        "systolic_bp": 132,
+        "diastolic_bp": 97
+      }
+    },
+    {
+      "id": "patient_9",
+      "name": "Patient 9",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1009",
+        "age": 41,
+        "biological_sex": "male",
+        "height_cm": 179.9,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 77.8,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 227.8,
+        "average_sleep_hours": 5.7,
+        "stress_score": 0.7,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.9,
+        "fasting_glucose_mgdl": 176.8,
+        "systolic_bp": 159,
+        "diastolic_bp": 86
+      }
+    },
+    {
+      "id": "patient_10",
+      "name": "Patient 10",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1010",
+        "age": 69,
+        "biological_sex": "female",
+        "height_cm": 177.2,
+        "years_since_diagnosis": 8,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 148.5,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 194.6,
+        "average_sleep_hours": 7.7,
+        "stress_score": 0.7,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.2,
+        "fasting_glucose_mgdl": 181.4,
+        "systolic_bp": 144,
+        "diastolic_bp": 75
+      }
+    },
+    {
+      "id": "patient_11",
+      "name": "Patient 11",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1011",
+        "age": 49,
+        "biological_sex": "female",
+        "height_cm": 155.7,
+        "years_since_diagnosis": 5,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.9
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 38.2,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 188.8,
+        "average_sleep_hours": 8.0,
+        "stress_score": 0.4,
+        "medication_adherence": 0.8
+      },
+      "health_metrics": {
+        "hba1c_percent": 5.8,
+        "fasting_glucose_mgdl": 130.1,
+        "systolic_bp": 134,
+        "diastolic_bp": 89
+      }
+    },
+    {
+      "id": "patient_12",
+      "name": "Patient 12",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1012",
+        "age": 55,
+        "biological_sex": "female",
+        "height_cm": 170.1,
+        "years_since_diagnosis": 8,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 34.6,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 204.0,
+        "average_sleep_hours": 6.9,
+        "stress_score": 0.7,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.8,
+        "fasting_glucose_mgdl": 178.6,
+        "systolic_bp": 133,
+        "diastolic_bp": 89
+      }
+    },
+    {
+      "id": "patient_13",
+      "name": "Patient 13",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1013",
+        "age": 65,
+        "biological_sex": "male",
+        "height_cm": 159.2,
+        "years_since_diagnosis": 8,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 6.2,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 357.9,
+        "average_sleep_hours": 7.9,
+        "stress_score": 0.8,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.9,
+        "fasting_glucose_mgdl": 142.9,
+        "systolic_bp": 128,
+        "diastolic_bp": 81
+      }
+    },
+    {
+      "id": "patient_14",
+      "name": "Patient 14",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1014",
+        "age": 37,
+        "biological_sex": "female",
+        "height_cm": 156.3,
+        "years_since_diagnosis": 3,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 52.8,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 375.7,
+        "average_sleep_hours": 7.8,
+        "stress_score": 0.5,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.3,
+        "fasting_glucose_mgdl": 127.3,
+        "systolic_bp": 120,
+        "diastolic_bp": 80
+      }
+    },
+    {
+      "id": "patient_15",
+      "name": "Patient 15",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1015",
+        "age": 59,
+        "biological_sex": "female",
+        "height_cm": 180.6,
+        "years_since_diagnosis": 15,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 137.7,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 208.3,
+        "average_sleep_hours": 6.7,
+        "stress_score": 0.7,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.7,
+        "fasting_glucose_mgdl": 145.9,
+        "systolic_bp": 120,
+        "diastolic_bp": 84
+      }
+    },
+    {
+      "id": "patient_16",
+      "name": "Patient 16",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1016",
+        "age": 70,
+        "biological_sex": "male",
+        "height_cm": 171.8,
+        "years_since_diagnosis": 11,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 26.5,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 300.5,
+        "average_sleep_hours": 7.1,
+        "stress_score": 0.3,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.0,
+        "fasting_glucose_mgdl": 156.9,
+        "systolic_bp": 136,
+        "diastolic_bp": 83
+      }
+    },
+    {
+      "id": "patient_17",
+      "name": "Patient 17",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1017",
+        "age": 53,
+        "biological_sex": "female",
+        "height_cm": 169.2,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 120.6,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 354.9,
+        "average_sleep_hours": 7.5,
+        "stress_score": 0.8,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.2,
+        "fasting_glucose_mgdl": 111.0,
+        "systolic_bp": 125,
+        "diastolic_bp": 87
+      }
+    },
+    {
+      "id": "patient_18",
+      "name": "Patient 18",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1018",
+        "age": 66,
+        "biological_sex": "female",
+        "height_cm": 165.9,
+        "years_since_diagnosis": 5,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 7.7,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 262.2,
+        "average_sleep_hours": 7.7,
+        "stress_score": 0.6,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.9,
+        "fasting_glucose_mgdl": 156.7,
+        "systolic_bp": 144,
+        "diastolic_bp": 79
+      }
+    },
+    {
+      "id": "patient_19",
+      "name": "Patient 19",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1019",
+        "age": 53,
+        "biological_sex": "female",
+        "height_cm": 178.4,
+        "years_since_diagnosis": 6,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.3
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 135.8,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 337.7,
+        "average_sleep_hours": 5.5,
+        "stress_score": 0.4,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.7,
+        "fasting_glucose_mgdl": 138.7,
+        "systolic_bp": 135,
+        "diastolic_bp": 84
+      }
+    },
+    {
+      "id": "patient_20",
+      "name": "Patient 20",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1020",
+        "age": 57,
+        "biological_sex": "female",
+        "height_cm": 176.7,
+        "years_since_diagnosis": 1,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.9
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 5.2,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 255.5,
+        "average_sleep_hours": 7.0,
+        "stress_score": 0.8,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.0,
+        "fasting_glucose_mgdl": 119.4,
+        "systolic_bp": 152,
+        "diastolic_bp": 98
+      }
+    },
+    {
+      "id": "patient_21",
+      "name": "Patient 21",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1021",
+        "age": 43,
+        "biological_sex": "female",
+        "height_cm": 165.8,
+        "years_since_diagnosis": 12,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 119.8,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 297.5,
+        "average_sleep_hours": 7.6,
+        "stress_score": 0.4,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.9,
+        "fasting_glucose_mgdl": 190.7,
+        "systolic_bp": 131,
+        "diastolic_bp": 92
+      }
+    },
+    {
+      "id": "patient_22",
+      "name": "Patient 22",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1022",
+        "age": 46,
+        "biological_sex": "male",
+        "height_cm": 168.2,
+        "years_since_diagnosis": 10,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 131.1,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 265.5,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.4,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.5,
+        "fasting_glucose_mgdl": 155.0,
+        "systolic_bp": 147,
+        "diastolic_bp": 99
+      }
+    },
+    {
+      "id": "patient_23",
+      "name": "Patient 23",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1023",
+        "age": 70,
+        "biological_sex": "male",
+        "height_cm": 168.8,
+        "years_since_diagnosis": 10,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 59.6,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 227.0,
+        "average_sleep_hours": 5.6,
+        "stress_score": 0.3,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.0,
+        "fasting_glucose_mgdl": 126.8,
+        "systolic_bp": 147,
+        "diastolic_bp": 100
+      }
+    },
+    {
+      "id": "patient_24",
+      "name": "Patient 24",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1024",
+        "age": 46,
+        "biological_sex": "male",
+        "height_cm": 167.1,
+        "years_since_diagnosis": 11,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 98.9,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 353.9,
+        "average_sleep_hours": 5.8,
+        "stress_score": 0.4,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.0,
+        "fasting_glucose_mgdl": 153.9,
+        "systolic_bp": 141,
+        "diastolic_bp": 100
+      }
+    },
+    {
+      "id": "patient_25",
+      "name": "Patient 25",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1025",
+        "age": 41,
+        "biological_sex": "female",
+        "height_cm": 173.2,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 87.7,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 386.1,
+        "average_sleep_hours": 7.1,
+        "stress_score": 0.3,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.1,
+        "fasting_glucose_mgdl": 126.2,
+        "systolic_bp": 139,
+        "diastolic_bp": 86
+      }
+    },
+    {
+      "id": "patient_26",
+      "name": "Patient 26",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1026",
+        "age": 65,
+        "biological_sex": "female",
+        "height_cm": 160.2,
+        "years_since_diagnosis": 3,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 96.9,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 236.7,
+        "average_sleep_hours": 6.1,
+        "stress_score": 0.7,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.5,
+        "fasting_glucose_mgdl": 156.2,
+        "systolic_bp": 143,
+        "diastolic_bp": 81
+      }
+    },
+    {
+      "id": "patient_27",
+      "name": "Patient 27",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1027",
+        "age": 64,
+        "biological_sex": "female",
+        "height_cm": 156.0,
+        "years_since_diagnosis": 12,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 106.5,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 221.1,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.7,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.2,
+        "fasting_glucose_mgdl": 199.5,
+        "systolic_bp": 122,
+        "diastolic_bp": 87
+      }
+    },
+    {
+      "id": "patient_28",
+      "name": "Patient 28",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1028",
+        "age": 66,
+        "biological_sex": "male",
+        "height_cm": 161.0,
+        "years_since_diagnosis": 8,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 0.3,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 356.3,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.5,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.6,
+        "fasting_glucose_mgdl": 191.7,
+        "systolic_bp": 154,
+        "diastolic_bp": 75
+      }
+    },
+    {
+      "id": "patient_29",
+      "name": "Patient 29",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1029",
+        "age": 36,
+        "biological_sex": "female",
+        "height_cm": 163.4,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 65.4,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 328.5,
+        "average_sleep_hours": 5.9,
+        "stress_score": 0.5,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 10.0,
+        "fasting_glucose_mgdl": 130.6,
+        "systolic_bp": 136,
+        "diastolic_bp": 85
+      }
+    },
+    {
+      "id": "patient_30",
+      "name": "Patient 30",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1030",
+        "age": 62,
+        "biological_sex": "female",
+        "height_cm": 182.4,
+        "years_since_diagnosis": 4,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 98.6,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 317.3,
+        "average_sleep_hours": 7.0,
+        "stress_score": 0.7,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.5,
+        "fasting_glucose_mgdl": 166.9,
+        "systolic_bp": 138,
+        "diastolic_bp": 87
+      }
+    },
+    {
+      "id": "patient_31",
+      "name": "Patient 31",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1031",
+        "age": 62,
+        "biological_sex": "male",
+        "height_cm": 158.9,
+        "years_since_diagnosis": 2,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 87.7,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 298.9,
+        "average_sleep_hours": 6.9,
+        "stress_score": 0.5,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.1,
+        "fasting_glucose_mgdl": 151.0,
+        "systolic_bp": 120,
+        "diastolic_bp": 89
+      }
+    },
+    {
+      "id": "patient_32",
+      "name": "Patient 32",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1032",
+        "age": 68,
+        "biological_sex": "male",
+        "height_cm": 180.9,
+        "years_since_diagnosis": 5,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.9
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 19.0,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 360.2,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.9,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.0,
+        "fasting_glucose_mgdl": 178.8,
+        "systolic_bp": 128,
+        "diastolic_bp": 77
+      }
+    },
+    {
+      "id": "patient_33",
+      "name": "Patient 33",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1033",
+        "age": 60,
+        "biological_sex": "male",
+        "height_cm": 166.8,
+        "years_since_diagnosis": 11,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 83.0,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 287.4,
+        "average_sleep_hours": 5.5,
+        "stress_score": 0.6,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.9,
+        "fasting_glucose_mgdl": 147.1,
+        "systolic_bp": 139,
+        "diastolic_bp": 85
+      }
+    },
+    {
+      "id": "patient_34",
+      "name": "Patient 34",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1034",
+        "age": 35,
+        "biological_sex": "female",
+        "height_cm": 166.6,
+        "years_since_diagnosis": 9,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 62.8,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 220.0,
+        "average_sleep_hours": 5.6,
+        "stress_score": 0.4,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.7,
+        "fasting_glucose_mgdl": 115.7,
+        "systolic_bp": 133,
+        "diastolic_bp": 78
+      }
+    },
+    {
+      "id": "patient_35",
+      "name": "Patient 35",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1035",
+        "age": 63,
+        "biological_sex": "female",
+        "height_cm": 184.0,
+        "years_since_diagnosis": 2,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 139.6,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 383.7,
+        "average_sleep_hours": 7.1,
+        "stress_score": 0.6,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.0,
+        "fasting_glucose_mgdl": 172.6,
+        "systolic_bp": 131,
+        "diastolic_bp": 82
+      }
+    },
+    {
+      "id": "patient_36",
+      "name": "Patient 36",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1036",
+        "age": 66,
+        "biological_sex": "female",
+        "height_cm": 161.8,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.3
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 85.9,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 220.7,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.4,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.7,
+        "fasting_glucose_mgdl": 188.7,
+        "systolic_bp": 124,
+        "diastolic_bp": 78
+      }
+    },
+    {
+      "id": "patient_37",
+      "name": "Patient 37",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1037",
+        "age": 45,
+        "biological_sex": "male",
+        "height_cm": 165.5,
+        "years_since_diagnosis": 13,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 92.9,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 285.9,
+        "average_sleep_hours": 7.9,
+        "stress_score": 0.8,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.4,
+        "fasting_glucose_mgdl": 124.4,
+        "systolic_bp": 123,
+        "diastolic_bp": 90
+      }
+    },
+    {
+      "id": "patient_38",
+      "name": "Patient 38",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1038",
+        "age": 63,
+        "biological_sex": "male",
+        "height_cm": 158.4,
+        "years_since_diagnosis": 4,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 98.6,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 285.9,
+        "average_sleep_hours": 6.6,
+        "stress_score": 0.5,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.2,
+        "fasting_glucose_mgdl": 196.1,
+        "systolic_bp": 152,
+        "diastolic_bp": 77
+      }
+    },
+    {
+      "id": "patient_39",
+      "name": "Patient 39",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1039",
+        "age": 54,
+        "biological_sex": "female",
+        "height_cm": 170.4,
+        "years_since_diagnosis": 15,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 63.0,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 399.5,
+        "average_sleep_hours": 7.9,
+        "stress_score": 0.5,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.3,
+        "fasting_glucose_mgdl": 134.1,
+        "systolic_bp": 121,
+        "diastolic_bp": 82
+      }
+    },
+    {
+      "id": "patient_40",
+      "name": "Patient 40",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1040",
+        "age": 69,
+        "biological_sex": "male",
+        "height_cm": 184.4,
+        "years_since_diagnosis": 11,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.9
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 24.2,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 248.3,
+        "average_sleep_hours": 6.3,
+        "stress_score": 0.7,
+        "medication_adherence": 0.8
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.6,
+        "fasting_glucose_mgdl": 110.4,
+        "systolic_bp": 128,
+        "diastolic_bp": 91
+      }
+    },
+    {
+      "id": "patient_41",
+      "name": "Patient 41",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1041",
+        "age": 39,
+        "biological_sex": "female",
+        "height_cm": 157.7,
+        "years_since_diagnosis": 9,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 145.5,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 222.4,
+        "average_sleep_hours": 7.4,
+        "stress_score": 0.9,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.8,
+        "fasting_glucose_mgdl": 165.8,
+        "systolic_bp": 152,
+        "diastolic_bp": 97
+      }
+    },
+    {
+      "id": "patient_42",
+      "name": "Patient 42",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1042",
+        "age": 35,
+        "biological_sex": "male",
+        "height_cm": 178.0,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 86.2,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 208.0,
+        "average_sleep_hours": 6.3,
+        "stress_score": 0.6,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.7,
+        "fasting_glucose_mgdl": 162.4,
+        "systolic_bp": 153,
+        "diastolic_bp": 75
+      }
+    },
+    {
+      "id": "patient_43",
+      "name": "Patient 43",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1043",
+        "age": 52,
+        "biological_sex": "female",
+        "height_cm": 168.7,
+        "years_since_diagnosis": 2,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 131.3,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 281.8,
+        "average_sleep_hours": 7.6,
+        "stress_score": 0.8,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.8,
+        "fasting_glucose_mgdl": 173.6,
+        "systolic_bp": 146,
+        "diastolic_bp": 100
+      }
+    },
+    {
+      "id": "patient_44",
+      "name": "Patient 44",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1044",
+        "age": 63,
+        "biological_sex": "female",
+        "height_cm": 166.3,
+        "years_since_diagnosis": 10,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 8.6,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 219.1,
+        "average_sleep_hours": 6.0,
+        "stress_score": 0.8,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.6,
+        "fasting_glucose_mgdl": 164.4,
+        "systolic_bp": 140,
+        "diastolic_bp": 99
+      }
+    },
+    {
+      "id": "patient_45",
+      "name": "Patient 45",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1045",
+        "age": 41,
+        "biological_sex": "female",
+        "height_cm": 167.8,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 56.6,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 203.7,
+        "average_sleep_hours": 7.8,
+        "stress_score": 0.3,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.0,
+        "fasting_glucose_mgdl": 111.7,
+        "systolic_bp": 121,
+        "diastolic_bp": 83
+      }
+    },
+    {
+      "id": "patient_46",
+      "name": "Patient 46",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1046",
+        "age": 42,
+        "biological_sex": "male",
+        "height_cm": 170.3,
+        "years_since_diagnosis": 13,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 54.8,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 206.3,
+        "average_sleep_hours": 6.4,
+        "stress_score": 0.8,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.9,
+        "fasting_glucose_mgdl": 197.9,
+        "systolic_bp": 142,
+        "diastolic_bp": 98
+      }
+    },
+    {
+      "id": "patient_47",
+      "name": "Patient 47",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1047",
+        "age": 44,
+        "biological_sex": "female",
+        "height_cm": 178.8,
+        "years_since_diagnosis": 1,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 87.6,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 297.7,
+        "average_sleep_hours": 5.8,
+        "stress_score": 0.6,
+        "medication_adherence": 0.8
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.5,
+        "fasting_glucose_mgdl": 134.8,
+        "systolic_bp": 129,
+        "diastolic_bp": 81
+      }
+    },
+    {
+      "id": "patient_48",
+      "name": "Patient 48",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1048",
+        "age": 48,
+        "biological_sex": "male",
+        "height_cm": 175.0,
+        "years_since_diagnosis": 10,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 46.7,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 294.9,
+        "average_sleep_hours": 6.9,
+        "stress_score": 0.4,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.7,
+        "fasting_glucose_mgdl": 178.1,
+        "systolic_bp": 155,
+        "diastolic_bp": 97
+      }
+    },
+    {
+      "id": "patient_49",
+      "name": "Patient 49",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1049",
+        "age": 41,
+        "biological_sex": "male",
+        "height_cm": 162.0,
+        "years_since_diagnosis": 4,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 71.9,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 227.4,
+        "average_sleep_hours": 7.5,
+        "stress_score": 0.8,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.4,
+        "fasting_glucose_mgdl": 117.7,
+        "systolic_bp": 120,
+        "diastolic_bp": 76
+      }
+    },
+    {
+      "id": "patient_50",
+      "name": "Patient 50",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1050",
+        "age": 60,
+        "biological_sex": "female",
+        "height_cm": 179.6,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 20.5,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 248.1,
+        "average_sleep_hours": 5.5,
+        "stress_score": 0.5,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.7,
+        "fasting_glucose_mgdl": 178.8,
+        "systolic_bp": 122,
+        "diastolic_bp": 91
+      }
+    },
+    {
+      "id": "patient_1",
+      "name": "Patient 1",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1001",
+        "age": 59,
+        "biological_sex": "male",
+        "height_cm": 157.6,
+        "years_since_diagnosis": 3,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 107.9,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 289.3,
+        "average_sleep_hours": 5.7,
+        "stress_score": 0.4,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.5,
+        "fasting_glucose_mgdl": 161.4,
+        "systolic_bp": 143,
+        "diastolic_bp": 76
+      }
+    },
+    {
+      "id": "patient_2",
+      "name": "Patient 2",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1002",
+        "age": 51,
+        "biological_sex": "male",
+        "height_cm": 182.7,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 102.0,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 270.0,
+        "average_sleep_hours": 7.3,
+        "stress_score": 0.8,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 10.0,
+        "fasting_glucose_mgdl": 125.1,
+        "systolic_bp": 140,
+        "diastolic_bp": 75
+      }
+    },
+    {
+      "id": "patient_3",
+      "name": "Patient 3",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1003",
+        "age": 63,
+        "biological_sex": "male",
+        "height_cm": 159.9,
+        "years_since_diagnosis": 6,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.3
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 139.5,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 355.7,
+        "average_sleep_hours": 6.7,
+        "stress_score": 0.6,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.4,
+        "fasting_glucose_mgdl": 123.7,
+        "systolic_bp": 136,
+        "diastolic_bp": 98
+      }
+    },
+    {
+      "id": "patient_4",
+      "name": "Patient 4",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1004",
+        "age": 54,
+        "biological_sex": "female",
+        "height_cm": 165.3,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 89.2,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 288.4,
+        "average_sleep_hours": 7.4,
+        "stress_score": 0.7,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.5,
+        "fasting_glucose_mgdl": 114.8,
+        "systolic_bp": 138,
+        "diastolic_bp": 86
+      }
+    },
+    {
+      "id": "patient_5",
+      "name": "Patient 5",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1005",
+        "age": 45,
+        "biological_sex": "female",
+        "height_cm": 155.3,
+        "years_since_diagnosis": 12,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 34.4,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 282.4,
+        "average_sleep_hours": 7.5,
+        "stress_score": 0.8,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 5.8,
+        "fasting_glucose_mgdl": 118.8,
+        "systolic_bp": 139,
+        "diastolic_bp": 89
+      }
+    },
+    {
+      "id": "patient_6",
+      "name": "Patient 6",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1006",
+        "age": 61,
+        "biological_sex": "female",
+        "height_cm": 175.5,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 30.0,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 206.6,
+        "average_sleep_hours": 7.3,
+        "stress_score": 0.7,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.4,
+        "fasting_glucose_mgdl": 119.9,
+        "systolic_bp": 122,
+        "diastolic_bp": 100
+      }
+    },
+    {
+      "id": "patient_7",
+      "name": "Patient 7",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1007",
+        "age": 53,
+        "biological_sex": "male",
+        "height_cm": 170.2,
+        "years_since_diagnosis": 6,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 87.5,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 347.0,
+        "average_sleep_hours": 7.9,
+        "stress_score": 0.7,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.0,
+        "fasting_glucose_mgdl": 175.2,
+        "systolic_bp": 132,
+        "diastolic_bp": 92
+      }
+    },
+    {
+      "id": "patient_8",
+      "name": "Patient 8",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1008",
+        "age": 61,
+        "biological_sex": "female",
+        "height_cm": 155.9,
+        "years_since_diagnosis": 5,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 98.8,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 302.1,
+        "average_sleep_hours": 7.2,
+        "stress_score": 0.8,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.8,
+        "fasting_glucose_mgdl": 135.8,
+        "systolic_bp": 132,
+        "diastolic_bp": 97
+      }
+    },
+    {
+      "id": "patient_9",
+      "name": "Patient 9",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1009",
+        "age": 41,
+        "biological_sex": "male",
+        "height_cm": 179.9,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 77.8,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 227.8,
+        "average_sleep_hours": 5.7,
+        "stress_score": 0.7,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.9,
+        "fasting_glucose_mgdl": 176.8,
+        "systolic_bp": 159,
+        "diastolic_bp": 86
+      }
+    },
+    {
+      "id": "patient_10",
+      "name": "Patient 10",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1010",
+        "age": 69,
+        "biological_sex": "female",
+        "height_cm": 177.2,
+        "years_since_diagnosis": 8,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 148.5,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 194.6,
+        "average_sleep_hours": 7.7,
+        "stress_score": 0.7,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.2,
+        "fasting_glucose_mgdl": 181.4,
+        "systolic_bp": 144,
+        "diastolic_bp": 75
+      }
+    },
+    {
+      "id": "patient_11",
+      "name": "Patient 11",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1011",
+        "age": 49,
+        "biological_sex": "female",
+        "height_cm": 155.7,
+        "years_since_diagnosis": 5,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.9
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 38.2,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 188.8,
+        "average_sleep_hours": 8.0,
+        "stress_score": 0.4,
+        "medication_adherence": 0.8
+      },
+      "health_metrics": {
+        "hba1c_percent": 5.8,
+        "fasting_glucose_mgdl": 130.1,
+        "systolic_bp": 134,
+        "diastolic_bp": 89
+      }
+    },
+    {
+      "id": "patient_12",
+      "name": "Patient 12",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1012",
+        "age": 55,
+        "biological_sex": "female",
+        "height_cm": 170.1,
+        "years_since_diagnosis": 8,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 34.6,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 204.0,
+        "average_sleep_hours": 6.9,
+        "stress_score": 0.7,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.8,
+        "fasting_glucose_mgdl": 178.6,
+        "systolic_bp": 133,
+        "diastolic_bp": 89
+      }
+    },
+    {
+      "id": "patient_13",
+      "name": "Patient 13",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1013",
+        "age": 65,
+        "biological_sex": "male",
+        "height_cm": 159.2,
+        "years_since_diagnosis": 8,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 6.2,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 357.9,
+        "average_sleep_hours": 7.9,
+        "stress_score": 0.8,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.9,
+        "fasting_glucose_mgdl": 142.9,
+        "systolic_bp": 128,
+        "diastolic_bp": 81
+      }
+    },
+    {
+      "id": "patient_14",
+      "name": "Patient 14",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1014",
+        "age": 37,
+        "biological_sex": "female",
+        "height_cm": 156.3,
+        "years_since_diagnosis": 3,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 52.8,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 375.7,
+        "average_sleep_hours": 7.8,
+        "stress_score": 0.5,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.3,
+        "fasting_glucose_mgdl": 127.3,
+        "systolic_bp": 120,
+        "diastolic_bp": 80
+      }
+    },
+    {
+      "id": "patient_15",
+      "name": "Patient 15",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1015",
+        "age": 59,
+        "biological_sex": "female",
+        "height_cm": 180.6,
+        "years_since_diagnosis": 15,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 137.7,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 208.3,
+        "average_sleep_hours": 6.7,
+        "stress_score": 0.7,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.7,
+        "fasting_glucose_mgdl": 145.9,
+        "systolic_bp": 120,
+        "diastolic_bp": 84
+      }
+    },
+    {
+      "id": "patient_16",
+      "name": "Patient 16",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1016",
+        "age": 70,
+        "biological_sex": "male",
+        "height_cm": 171.8,
+        "years_since_diagnosis": 11,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 26.5,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 300.5,
+        "average_sleep_hours": 7.1,
+        "stress_score": 0.3,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.0,
+        "fasting_glucose_mgdl": 156.9,
+        "systolic_bp": 136,
+        "diastolic_bp": 83
+      }
+    },
+    {
+      "id": "patient_17",
+      "name": "Patient 17",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1017",
+        "age": 53,
+        "biological_sex": "female",
+        "height_cm": 169.2,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 120.6,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 354.9,
+        "average_sleep_hours": 7.5,
+        "stress_score": 0.8,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.2,
+        "fasting_glucose_mgdl": 111.0,
+        "systolic_bp": 125,
+        "diastolic_bp": 87
+      }
+    },
+    {
+      "id": "patient_18",
+      "name": "Patient 18",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1018",
+        "age": 66,
+        "biological_sex": "female",
+        "height_cm": 165.9,
+        "years_since_diagnosis": 5,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 7.7,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 262.2,
+        "average_sleep_hours": 7.7,
+        "stress_score": 0.6,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.9,
+        "fasting_glucose_mgdl": 156.7,
+        "systolic_bp": 144,
+        "diastolic_bp": 79
+      }
+    },
+    {
+      "id": "patient_19",
+      "name": "Patient 19",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1019",
+        "age": 53,
+        "biological_sex": "female",
+        "height_cm": 178.4,
+        "years_since_diagnosis": 6,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.3
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 135.8,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 337.7,
+        "average_sleep_hours": 5.5,
+        "stress_score": 0.4,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.7,
+        "fasting_glucose_mgdl": 138.7,
+        "systolic_bp": 135,
+        "diastolic_bp": 84
+      }
+    },
+    {
+      "id": "patient_20",
+      "name": "Patient 20",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1020",
+        "age": 57,
+        "biological_sex": "female",
+        "height_cm": 176.7,
+        "years_since_diagnosis": 1,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.9
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 5.2,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 255.5,
+        "average_sleep_hours": 7.0,
+        "stress_score": 0.8,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.0,
+        "fasting_glucose_mgdl": 119.4,
+        "systolic_bp": 152,
+        "diastolic_bp": 98
+      }
+    },
+    {
+      "id": "patient_21",
+      "name": "Patient 21",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1021",
+        "age": 43,
+        "biological_sex": "female",
+        "height_cm": 165.8,
+        "years_since_diagnosis": 12,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 119.8,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 297.5,
+        "average_sleep_hours": 7.6,
+        "stress_score": 0.4,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.9,
+        "fasting_glucose_mgdl": 190.7,
+        "systolic_bp": 131,
+        "diastolic_bp": 92
+      }
+    },
+    {
+      "id": "patient_22",
+      "name": "Patient 22",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1022",
+        "age": 46,
+        "biological_sex": "male",
+        "height_cm": 168.2,
+        "years_since_diagnosis": 10,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 131.1,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 265.5,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.4,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.5,
+        "fasting_glucose_mgdl": 155.0,
+        "systolic_bp": 147,
+        "diastolic_bp": 99
+      }
+    },
+    {
+      "id": "patient_23",
+      "name": "Patient 23",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1023",
+        "age": 70,
+        "biological_sex": "male",
+        "height_cm": 168.8,
+        "years_since_diagnosis": 10,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 59.6,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 227.0,
+        "average_sleep_hours": 5.6,
+        "stress_score": 0.3,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.0,
+        "fasting_glucose_mgdl": 126.8,
+        "systolic_bp": 147,
+        "diastolic_bp": 100
+      }
+    },
+    {
+      "id": "patient_24",
+      "name": "Patient 24",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1024",
+        "age": 46,
+        "biological_sex": "male",
+        "height_cm": 167.1,
+        "years_since_diagnosis": 11,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 98.9,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 353.9,
+        "average_sleep_hours": 5.8,
+        "stress_score": 0.4,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.0,
+        "fasting_glucose_mgdl": 153.9,
+        "systolic_bp": 141,
+        "diastolic_bp": 100
+      }
+    },
+    {
+      "id": "patient_25",
+      "name": "Patient 25",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1025",
+        "age": 41,
+        "biological_sex": "female",
+        "height_cm": 173.2,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 87.7,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 386.1,
+        "average_sleep_hours": 7.1,
+        "stress_score": 0.3,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.1,
+        "fasting_glucose_mgdl": 126.2,
+        "systolic_bp": 139,
+        "diastolic_bp": 86
+      }
+    },
+    {
+      "id": "patient_26",
+      "name": "Patient 26",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1026",
+        "age": 65,
+        "biological_sex": "female",
+        "height_cm": 160.2,
+        "years_since_diagnosis": 3,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 96.9,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 236.7,
+        "average_sleep_hours": 6.1,
+        "stress_score": 0.7,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.5,
+        "fasting_glucose_mgdl": 156.2,
+        "systolic_bp": 143,
+        "diastolic_bp": 81
+      }
+    },
+    {
+      "id": "patient_27",
+      "name": "Patient 27",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1027",
+        "age": 64,
+        "biological_sex": "female",
+        "height_cm": 156.0,
+        "years_since_diagnosis": 12,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 106.5,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 221.1,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.7,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.2,
+        "fasting_glucose_mgdl": 199.5,
+        "systolic_bp": 122,
+        "diastolic_bp": 87
+      }
+    },
+    {
+      "id": "patient_28",
+      "name": "Patient 28",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1028",
+        "age": 66,
+        "biological_sex": "male",
+        "height_cm": 161.0,
+        "years_since_diagnosis": 8,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 0.3,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 356.3,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.5,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.6,
+        "fasting_glucose_mgdl": 191.7,
+        "systolic_bp": 154,
+        "diastolic_bp": 75
+      }
+    },
+    {
+      "id": "patient_29",
+      "name": "Patient 29",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1029",
+        "age": 36,
+        "biological_sex": "female",
+        "height_cm": 163.4,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 65.4,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 328.5,
+        "average_sleep_hours": 5.9,
+        "stress_score": 0.5,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 10.0,
+        "fasting_glucose_mgdl": 130.6,
+        "systolic_bp": 136,
+        "diastolic_bp": 85
+      }
+    },
+    {
+      "id": "patient_30",
+      "name": "Patient 30",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1030",
+        "age": 62,
+        "biological_sex": "female",
+        "height_cm": 182.4,
+        "years_since_diagnosis": 4,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 98.6,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 317.3,
+        "average_sleep_hours": 7.0,
+        "stress_score": 0.7,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.5,
+        "fasting_glucose_mgdl": 166.9,
+        "systolic_bp": 138,
+        "diastolic_bp": 87
+      }
+    },
+    {
+      "id": "patient_31",
+      "name": "Patient 31",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1031",
+        "age": 62,
+        "biological_sex": "male",
+        "height_cm": 158.9,
+        "years_since_diagnosis": 2,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 87.7,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 298.9,
+        "average_sleep_hours": 6.9,
+        "stress_score": 0.5,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.1,
+        "fasting_glucose_mgdl": 151.0,
+        "systolic_bp": 120,
+        "diastolic_bp": 89
+      }
+    },
+    {
+      "id": "patient_32",
+      "name": "Patient 32",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1032",
+        "age": 68,
+        "biological_sex": "male",
+        "height_cm": 180.9,
+        "years_since_diagnosis": 5,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.9
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 19.0,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 360.2,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.9,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.0,
+        "fasting_glucose_mgdl": 178.8,
+        "systolic_bp": 128,
+        "diastolic_bp": 77
+      }
+    },
+    {
+      "id": "patient_33",
+      "name": "Patient 33",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1033",
+        "age": 60,
+        "biological_sex": "male",
+        "height_cm": 166.8,
+        "years_since_diagnosis": 11,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 83.0,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 287.4,
+        "average_sleep_hours": 5.5,
+        "stress_score": 0.6,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.9,
+        "fasting_glucose_mgdl": 147.1,
+        "systolic_bp": 139,
+        "diastolic_bp": 85
+      }
+    },
+    {
+      "id": "patient_34",
+      "name": "Patient 34",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1034",
+        "age": 35,
+        "biological_sex": "female",
+        "height_cm": 166.6,
+        "years_since_diagnosis": 9,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 62.8,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 220.0,
+        "average_sleep_hours": 5.6,
+        "stress_score": 0.4,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.7,
+        "fasting_glucose_mgdl": 115.7,
+        "systolic_bp": 133,
+        "diastolic_bp": 78
+      }
+    },
+    {
+      "id": "patient_35",
+      "name": "Patient 35",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1035",
+        "age": 63,
+        "biological_sex": "female",
+        "height_cm": 184.0,
+        "years_since_diagnosis": 2,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 139.6,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 383.7,
+        "average_sleep_hours": 7.1,
+        "stress_score": 0.6,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.0,
+        "fasting_glucose_mgdl": 172.6,
+        "systolic_bp": 131,
+        "diastolic_bp": 82
+      }
+    },
+    {
+      "id": "patient_36",
+      "name": "Patient 36",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1036",
+        "age": 66,
+        "biological_sex": "female",
+        "height_cm": 161.8,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.3
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 85.9,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 220.7,
+        "average_sleep_hours": 6.8,
+        "stress_score": 0.4,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.7,
+        "fasting_glucose_mgdl": 188.7,
+        "systolic_bp": 124,
+        "diastolic_bp": 78
+      }
+    },
+    {
+      "id": "patient_37",
+      "name": "Patient 37",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1037",
+        "age": 45,
+        "biological_sex": "male",
+        "height_cm": 165.5,
+        "years_since_diagnosis": 13,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 92.9,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 285.9,
+        "average_sleep_hours": 7.9,
+        "stress_score": 0.8,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.4,
+        "fasting_glucose_mgdl": 124.4,
+        "systolic_bp": 123,
+        "diastolic_bp": 90
+      }
+    },
+    {
+      "id": "patient_38",
+      "name": "Patient 38",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1038",
+        "age": 63,
+        "biological_sex": "male",
+        "height_cm": 158.4,
+        "years_since_diagnosis": 4,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 98.6,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 285.9,
+        "average_sleep_hours": 6.6,
+        "stress_score": 0.5,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.2,
+        "fasting_glucose_mgdl": 196.1,
+        "systolic_bp": 152,
+        "diastolic_bp": 77
+      }
+    },
+    {
+      "id": "patient_39",
+      "name": "Patient 39",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1039",
+        "age": 54,
+        "biological_sex": "female",
+        "height_cm": 170.4,
+        "years_since_diagnosis": 15,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 63.0,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 399.5,
+        "average_sleep_hours": 7.9,
+        "stress_score": 0.5,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.3,
+        "fasting_glucose_mgdl": 134.1,
+        "systolic_bp": 121,
+        "diastolic_bp": 82
+      }
+    },
+    {
+      "id": "patient_40",
+      "name": "Patient 40",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1040",
+        "age": 69,
+        "biological_sex": "male",
+        "height_cm": 184.4,
+        "years_since_diagnosis": 11,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.9
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 24.2,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 248.3,
+        "average_sleep_hours": 6.3,
+        "stress_score": 0.7,
+        "medication_adherence": 0.8
+      },
+      "health_metrics": {
+        "hba1c_percent": 9.6,
+        "fasting_glucose_mgdl": 110.4,
+        "systolic_bp": 128,
+        "diastolic_bp": 91
+      }
+    },
+    {
+      "id": "patient_41",
+      "name": "Patient 41",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1041",
+        "age": 39,
+        "biological_sex": "female",
+        "height_cm": 157.7,
+        "years_since_diagnosis": 9,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 145.5,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 222.4,
+        "average_sleep_hours": 7.4,
+        "stress_score": 0.9,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.8,
+        "fasting_glucose_mgdl": 165.8,
+        "systolic_bp": 152,
+        "diastolic_bp": 97
+      }
+    },
+    {
+      "id": "patient_42",
+      "name": "Patient 42",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1042",
+        "age": 35,
+        "biological_sex": "male",
+        "height_cm": 178.0,
+        "years_since_diagnosis": 7,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 86.2,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 208.0,
+        "average_sleep_hours": 6.3,
+        "stress_score": 0.6,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.7,
+        "fasting_glucose_mgdl": 162.4,
+        "systolic_bp": 153,
+        "diastolic_bp": 75
+      }
+    },
+    {
+      "id": "patient_43",
+      "name": "Patient 43",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1043",
+        "age": 52,
+        "biological_sex": "female",
+        "height_cm": 168.7,
+        "years_since_diagnosis": 2,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 131.3,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 281.8,
+        "average_sleep_hours": 7.6,
+        "stress_score": 0.8,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.8,
+        "fasting_glucose_mgdl": 173.6,
+        "systolic_bp": 146,
+        "diastolic_bp": 100
+      }
+    },
+    {
+      "id": "patient_44",
+      "name": "Patient 44",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1044",
+        "age": 63,
+        "biological_sex": "female",
+        "height_cm": 166.3,
+        "years_since_diagnosis": 10,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 8.6,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 219.1,
+        "average_sleep_hours": 6.0,
+        "stress_score": 0.8,
+        "medication_adherence": 0.9
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.6,
+        "fasting_glucose_mgdl": 164.4,
+        "systolic_bp": 140,
+        "diastolic_bp": 99
+      }
+    },
+    {
+      "id": "patient_45",
+      "name": "Patient 45",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1045",
+        "age": 41,
+        "biological_sex": "female",
+        "height_cm": 167.8,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 56.6,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 203.7,
+        "average_sleep_hours": 7.8,
+        "stress_score": 0.3,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.0,
+        "fasting_glucose_mgdl": 111.7,
+        "systolic_bp": 121,
+        "diastolic_bp": 83
+      }
+    },
+    {
+      "id": "patient_46",
+      "name": "Patient 46",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1046",
+        "age": 42,
+        "biological_sex": "male",
+        "height_cm": 170.3,
+        "years_since_diagnosis": 13,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.7
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 54.8,
+        "diet_quality": "good",
+        "daily_carb_intake_grams": 206.3,
+        "average_sleep_hours": 6.4,
+        "stress_score": 0.8,
+        "medication_adherence": 0.5
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.9,
+        "fasting_glucose_mgdl": 197.9,
+        "systolic_bp": 142,
+        "diastolic_bp": 98
+      }
+    },
+    {
+      "id": "patient_47",
+      "name": "Patient 47",
+      "scenario": "improving",
+      "profile": {
+        "patient_id": "SYN-1047",
+        "age": 44,
+        "biological_sex": "female",
+        "height_cm": 178.8,
+        "years_since_diagnosis": 1,
+        "family_history_diabetes": false,
+        "genetic_risk_factor": 0.4
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 87.6,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 297.7,
+        "average_sleep_hours": 5.8,
+        "stress_score": 0.6,
+        "medication_adherence": 0.8
+      },
+      "health_metrics": {
+        "hba1c_percent": 6.5,
+        "fasting_glucose_mgdl": 134.8,
+        "systolic_bp": 129,
+        "diastolic_bp": 81
+      }
+    },
+    {
+      "id": "patient_48",
+      "name": "Patient 48",
+      "scenario": "mild",
+      "profile": {
+        "patient_id": "SYN-1048",
+        "age": 48,
+        "biological_sex": "male",
+        "height_cm": 175.0,
+        "years_since_diagnosis": 10,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.5
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 46.7,
+        "diet_quality": "poor",
+        "daily_carb_intake_grams": 294.9,
+        "average_sleep_hours": 6.9,
+        "stress_score": 0.4,
+        "medication_adherence": 0.4
+      },
+      "health_metrics": {
+        "hba1c_percent": 7.7,
+        "fasting_glucose_mgdl": 178.1,
+        "systolic_bp": 155,
+        "diastolic_bp": 97
+      }
+    },
+    {
+      "id": "patient_49",
+      "name": "Patient 49",
+      "scenario": "moderate",
+      "profile": {
+        "patient_id": "SYN-1049",
+        "age": 41,
+        "biological_sex": "male",
+        "height_cm": 162.0,
+        "years_since_diagnosis": 4,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.8
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 71.9,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 227.4,
+        "average_sleep_hours": 7.5,
+        "stress_score": 0.8,
+        "medication_adherence": 0.6
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.4,
+        "fasting_glucose_mgdl": 117.7,
+        "systolic_bp": 120,
+        "diastolic_bp": 76
+      }
+    },
+    {
+      "id": "patient_50",
+      "name": "Patient 50",
+      "scenario": "severe",
+      "profile": {
+        "patient_id": "SYN-1050",
+        "age": 60,
+        "biological_sex": "female",
+        "height_cm": 179.6,
+        "years_since_diagnosis": 14,
+        "family_history_diabetes": true,
+        "genetic_risk_factor": 0.6
+      },
+      "lifestyle": {
+        "exercise_minutes_per_week": 20.5,
+        "diet_quality": "fair",
+        "daily_carb_intake_grams": 248.1,
+        "average_sleep_hours": 5.5,
+        "stress_score": 0.5,
+        "medication_adherence": 0.7
+      },
+      "health_metrics": {
+        "hba1c_percent": 8.7,
+        "fasting_glucose_mgdl": 178.8,
+        "systolic_bp": 122,
+        "diastolic_bp": 91
+      }
+    }
+  ],
+  "metadata": {
+    "merged": true,
+    "total_records": 104
+  }
+}
